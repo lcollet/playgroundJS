@@ -29,11 +29,24 @@
       </div>
     </nav>
 
+    <div ng-view>
+
+    </div>
+
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/js/materialize.min.js"></script>
     <script src="lib/angular.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angularjs-toaster/0.4.9/toaster.min.js"></script>
-
+    <script src="https://code.angularjs.org/1.4.8/angular-route.js"></script>
+    <script src="components/books/services/bookFactory.js"></script>
+    <script src="components/books/index.js"></script>
+    <script src="components/core/index.js"></script>
     <script src="bookstore.js"></script>
+    <script src="components/core/navController.js"></script>
+    <script src="components/books/list/listController.js"></script>
+    <script src="components/books/details/detailsController.js"></script>
+    <script src="components/books/add/addController.js"></script>
+    <script src="components/books/services/bookService.js"></script>
+    <script src="components/core/routes.js"></script>
   </body>
 </html>
